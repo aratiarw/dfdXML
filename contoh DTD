@@ -1,0 +1,14 @@
+<!DOCTYPE person [
+  <!ELEMENT person     (nama, profesi*)>
+  <!ELEMENT name       (nama_depan, nama_belakang)>
+  <!ELEMENT nama_depan (#PCDATA)>
+  <!ELEMENT nama_belakang  (#PCDATA)>
+  <!ELEMENT profesi (#PCDATA)>
+]>
+<person>
+   <nama>
+      <nama_depan>Tiara Rizki</nama_depan>
+      <nama_belakang>Wulansari</nama_belakang>
+   </nama>
+   <profesi>Programmer</profesi>
+   <profesi>Photographer</profesi> </person>
